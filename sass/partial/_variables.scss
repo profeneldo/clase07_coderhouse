@@ -18,3 +18,13 @@ $letra: Arial, sans-serif;
   margin: 10px;
   box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
 }
+
+//extend para botones
+
+%boton-color{
+  color: #fff;
+  border: 2px dotted gray;
+  border-radius: 25px;
+  padding: 10px 20px;
+  display: inline-block;
+}

@@ -1,3 +1,21 @@
+@use "variables";
+
 main {
   padding: 2rem;
+}
+
+.btn-index{
+  @extend %boton-color;
+  background-color: red;
+
+}
+
+.btn-impresion{
+ @extend %boton-color;
+ background-color: blue;
+}
+
+.btn-robotica{
+ @extend %boton-color;
+ background-color: black;
 }
