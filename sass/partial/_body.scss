@@ -1,0 +1,18 @@
+@use "variables" as v;
+
+body {
+  font-family: v.$letra ;
+  margin: 0;
+  background-color: #EEF7FF;
+  color: #333;
+
+  .card-primera{
+    @include v.tarjeta-simple (white, red, 20px);
+  }
+
+  .card-segunda{
+    @include v.tarjeta-simple(black, green, 35px);
+  }
+
+
+}
