@@ -1,4 +1,4 @@
-$color_fondo: #c68349;
+$color_fondo: #0a9396;
 $color_letra: #fff;
 
 $letra: Arial, sans-serif;
@@ -6,7 +6,7 @@ $letra: Arial, sans-serif;
 // mixin de flexbox centrado
 @mixin flex-center{
     display: flex;
-    justify-content: center;
+    justify-content: start;
 }
 
 // mixin con una tarjeta con parametros
